@@ -15,6 +15,11 @@ export const metadata: Metadata = {
     title: "Harsha's Portfolio",
     description: "Computer Science and  Engineering student specializing in AI, Deep Learning, Computer Vision, and Medical Image Analysis",
     keywords: ["AI", "Machine Learning", "Deep Learning", "Computer Vision", "GANs", "Portfolio"],
+    icons: {
+        icon: '/favicon.svg',
+        shortcut: '/favicon.svg',
+        apple: '/favicon.svg',
+    },
 };
 
 export default function RootLayout({
